@@ -24,7 +24,7 @@ app.use(express.json());
 app.use(
   cors({
     credentials: true,
-    origin: "https://depathway360.org/", 
+    origin: "https://depathway360.org", 
     // was localhost 
   })
 );
